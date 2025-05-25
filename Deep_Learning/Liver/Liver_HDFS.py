@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # ---------------------------------------------------------------
 #  Deep-Survival Pipeline for Liver ROI
 # ---------------------------------------------------------------
@@ -9,12 +10,12 @@
 #  Customization Choices
 #  ---------------------
 #  • All file-system paths, variable names, and printed messages assume
-#    the Region-of-Interest (ROI) is the **Liver**.  
+#    the Region-of-Interest (ROI) is the **Liver**.
 #  • Comments were expanded throughout to clarify *why* each block
-#    exists and *how* it contributes to the end-to-end liver workflow.  
-#  • No author names or calendar dates appear anywhere in this file.  
+#    exists and *how* it contributes to the end-to-end liver workflow.
+#  • No author names or calendar dates appear anywhere in this file.
 #  • Section banners (`##############################################################################`)
-#    make it easy to navigate the code.  
+#    make it easy to navigate the code.
 #
 #  Usage
 #  -----
@@ -718,8 +719,8 @@ def apply_tta_mc_dropout(feature_extractor, deep_surv, batch,
                          num_tta=5, num_mc=5):
     """
     • *num_tta*  — how many geometric TTA passes (here just identity,
-                   but hook point is provided).  
-    • *num_mc*   — MC-dropout samples per TTA pass.  
+                   but hook point is provided).
+    • *num_mc*   — MC-dropout samples per TTA pass.
     Returns averaged risk predictions.
     """
     set_eval_seed(EVAL_SEED)
