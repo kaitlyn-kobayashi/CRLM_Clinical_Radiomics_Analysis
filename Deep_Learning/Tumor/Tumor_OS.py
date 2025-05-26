@@ -1,7 +1,6 @@
 
 ##############################################################################
 # Tumor Overall-Survival (OS) 3-D Deep-Survival Pipeline
-#
 # ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 #  This end-to-end script:
 #     • Matches CT volumes, segmentation masks, and clinical CSV rows
@@ -11,11 +10,7 @@
 #     • Performs hyper-parameter search on cached embeddings
 #     • Trains multiple seeds, builds an EMA ensemble, then bootstraps a 95 % CI
 #     • Writes per-patient deep features & risk scores to CSV
-#
-#  💡  Customize directory paths (cached_dir, results_dir, etc.) near the top
-#     to match your own storage layout before running.
-#
-#  Tested on: 4× A100, PyTorch 2.2, CUDA 12.4          Author: (your lab)
+
 ##############################################################################
 
 import os
