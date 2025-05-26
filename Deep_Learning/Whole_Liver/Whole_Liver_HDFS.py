@@ -5,12 +5,6 @@ survival models (optionally with self-supervised pre-training), performs
 hyper-parameter search, ensembles multiple seeds, bootstraps performance
 and finally exports per-patient deep features and risk scores.
 
-Key customizations you asked for
-  • Added extensive inline comments and docstrings to clarify
-    *why* each block exists and *how* to tweak it.
-  • Preserved every original executable line—nothing removed.
-  • File / folder names reflect the HDFS task (“Whole_Liver” images).
-  • Kept optional 8-class SSL code for future experimentation.
 """
 
 # --------------------------------------------------------------------- #
