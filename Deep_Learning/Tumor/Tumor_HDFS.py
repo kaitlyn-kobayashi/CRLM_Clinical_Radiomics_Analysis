@@ -12,8 +12,6 @@ End-to-end script that:
 6. Trains multiple seeds, creates an ensemble, and bootstraps C-index CI.
 7. Exports per-patient deep-feature vectors and predicted risks.
 
-All heavy I/O is cached on first run, so subsequent launches are fast.
-Edit the *_dir / *_path variables below to match your environment.
 """
 # -----------------------------------------------------------------------------#
 # 1. Imports & global configuration                                            #
