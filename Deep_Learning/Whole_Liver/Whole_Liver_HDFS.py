@@ -1,4 +1,5 @@
-"""Whole_Liver HDFS Survival Pipeline
+"""
+Whole_Liver HDFS Survival Pipeline
 ---------------------------------------
 This end-to-end script prepares imaging + clinical data, trains deep
 survival models (optionally with self-supervised pre-training), performs
