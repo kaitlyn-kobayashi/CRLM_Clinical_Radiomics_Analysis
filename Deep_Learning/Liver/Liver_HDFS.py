@@ -1,29 +1,6 @@
-# -*- coding: utf-8 -*-
 # ---------------------------------------------------------------
 #  Deep-Survival Pipeline for Liver ROI
 # ---------------------------------------------------------------
-#  Goal
-#  ----
-#  Train and evaluate a 3-D CNN + DeepSurv model that predicts
-#  Hepatocellular Disease-Free Survival (HDFS) from liver CT volumes.
-#
-#  Customization Choices
-#  ---------------------
-#  • All file-system paths, variable names, and printed messages assume
-#    the Region-of-Interest (ROI) is the **Liver**.
-#  • Comments were expanded throughout to clarify *why* each block
-#    exists and *how* it contributes to the end-to-end liver workflow.
-#  • No author names or calendar dates appear anywhere in this file.
-#  • Section banners (`##############################################################################`)
-#    make it easy to navigate the code.
-#
-#  Usage
-#  -----
-#  Adjust the three absolute directory paths under “Paths” if your data
-#  lives elsewhere, then run:
-#
-#      python liver_hdfs_pipeline.py
-#
 #  ---------------------------------------------------------------
 #  Imports
 #  ---------------------------------------------------------------
