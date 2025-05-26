@@ -12,7 +12,7 @@ The repository provides six runnable scripts—one per region-of-interest (ROI) 
 |----------------|----------|--------|
 | **Whole Liver** | Overall Survival | `Whole_Liver_OS.py` |
 |                | Hepatic Disease-Free Survival | `Whole_Liver_HDFS.py` |
-| **Liver** | OS | `Liver_OS.py` |
+| **Liver** | Overall Survival | `Liver_OS.py` |
 |                    | Hepatic Disease-Free Survival | `Liver_HDFS.py` |
 | **Tumor Volume** | Overall Survival | `Tumor_OS.py` |
 |                 | Hepatic Disease-Free Survival | `Tumor_HDFS.py` |
