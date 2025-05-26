@@ -1,0 +1,17 @@
+# Deep-learning core
+torch==2.1.*
+torchvision==0.16.*
+
+# Machine-learning utilities
+scikit-learn>=1.4
+scikit-survival>=0.22
+
+# Scientific stack
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+nibabel>=5.2
+scikit-image>=0.23
+
+# CLI / logging
+rich>=13.7
