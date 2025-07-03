@@ -1,0 +1,7 @@
+renv/
+
+*.docx
+*.html
+*.pdf
+*.svg
+.Rproj.user/
