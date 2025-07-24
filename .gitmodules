@@ -1,0 +1,3 @@
+[submodule "Feature_Extraction/chi-fexp"]
+	path = Feature_Extraction/chi-fexp
+	url = git@github.com:jpeoples/chi-fexp.git
